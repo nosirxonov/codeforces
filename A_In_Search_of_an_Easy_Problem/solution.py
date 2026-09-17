@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+# ====================================================================
+# Masala nomi    : A. In Search of an Easy Problem
+# Masala havolasi: https://codeforces.com/problemset/problem/1030/A
+# Vaqt cheklovi  : time limit per test 1 second
+# Xotira cheklovi: memory limit per test 256 megabytes
+# ====================================================================
+
+# Ajoyib va juda oson masala :) 
+
+_ = int(input())
+a = list(map(int, input().split()))
+if 1 in a:
+    print("HARD")
+else:
+    print("EASY")
